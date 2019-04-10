@@ -2,6 +2,7 @@ package com.tanke.bean;
 
 import java.io.IOException;
 
+import com.tanke.business.BlockAble;
 import com.tanke.game.Constants;
 import com.tanke.utils.DrawUtils;
 
@@ -10,7 +11,7 @@ import com.tanke.utils.DrawUtils;
  * @author 22793
  *
  */
-public class Water extends Element {
+public class Water extends Element implements BlockAble{
 	
 	public Water(int x,int y) {
 		this.x = x;

@@ -51,4 +51,38 @@ public class Constants {
 	 */
 	public static final String IMAGE_GRASS= "res/img/grass.gif";
 	
+	/**
+	 * 爆炸物的图片资源
+	 */
+	public static final String[] IMAGE_BLAST_ARRAY = {
+			"res/img/blast_1.gif",
+			"res/img/blast_2.gif",
+			"res/img/blast_3.gif",
+			"res/img/blast_4.gif",
+			"res/img/blast_5.gif",
+			"res/img/blast_6.gif",
+			"res/img/blast_7.gif",
+			"res/img/blast_8.gif"
+	};
+	
+	/**
+	 * 开始游戏的音乐资源
+	 */
+	public static final String MUSIC_START = "res/snd/start.wav";
+	
+	/**
+	 * 射击的音乐资源
+	 */
+	public static final String MUSIC_FIRE = "res/snd/fire.wav";
+	
+	/**
+	 * 击中目标的音乐资源
+	 */
+	public static final String MUSIC_HIT = "res/snd/hit.wav";
+	
+	/**
+	 * 爆炸的音乐资源
+	 */
+	public static final String MUSIC_BLAST = "res/snd/blast.wav";
+	
 }

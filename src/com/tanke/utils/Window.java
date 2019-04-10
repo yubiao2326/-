@@ -121,6 +121,8 @@ public abstract class Window {
 				// 释放
 				int key = Keyboard.getEventKey();
 				
+				onKeyRelease(key);
+				
 				removeLongPress(key);
 			}
 		}
@@ -185,4 +187,6 @@ public abstract class Window {
 	 * 当屏幕刷新时的回调
 	 */
 	protected abstract void onDisplayUpdate();
+	
+	protected abstract void onKeyRelease(int key);
 }
